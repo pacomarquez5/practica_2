@@ -12,7 +12,7 @@
 <body>
     <div class="d-flex flex-column min-vh-100">
 
-        <nav class="navbar navbar-expand-lg bg-primary">
+        <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container-fluid">
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
@@ -59,7 +59,7 @@
 
         </div>
 
-        <footer class="bg-primary text-white py-3 mt-auto d-flex justify-content-between">
+        <footer class="bg-dark text-white py-3 mt-auto d-flex justify-content-between">
             @auth
                 <div class="d-flex align-items-center">
                     <h3 class="ms-3 mb-0">{{ Auth::user()->name }}</h3>

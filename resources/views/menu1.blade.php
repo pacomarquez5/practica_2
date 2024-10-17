@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenido al Sistema Administrativo</title>
+    <title>Bienvenido</title>
 
     @vite(['resources/js/app.js'])
 </head>
 
 <body>
 
-    <nav class="navbar sticky-top bg-primary">
+    <nav class="navbar sticky-top bg-dark">
         <div class="container-fluid d-flex justify-content-center">
             <h1>BIENVENIDO</h1>
         </div>
@@ -25,13 +25,13 @@
                     <a href="" class="btn btn-secondary">Acerca de...</a>
                     <a href="" class="btn btn-secondary">Contáctanos</a>
                     <a href="" class="btn btn-secondary">Ayuda</a>
-                    <a href="{{ route('login') }}" class="btn btn-success">Iniciar sesión</a>
+                    <a href="{{ route('login') }}" class="btn btn-danger">Iniciar sesión</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <nav class="navbar sticky-bottom bg-primary">
+    <nav class="navbar sticky-bottom bg-dark">
         <div class="container-fluid d-flex justify-content-center">
             <a class="navbar-brand" href="https://styde.net/que-es-composer-y-como-usarlo/" target="_blank">COMPOSER |</a>
             <a class="navbar-brand" href="https://desarrolloweb.com/home/npm" target="_blank">NPM |</a>
