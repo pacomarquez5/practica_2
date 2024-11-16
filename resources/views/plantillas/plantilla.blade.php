@@ -48,15 +48,12 @@
                 </div>
             </div>
         </nav>
-
-
+        <div class="container">
+            @yield('contenido')
+        </div>
 
         <div class="container">
-
-
-            @yield('contenido')
-
-
+            @yield('contenido2')
         </div>
 
         <footer class="bg-dark text-white py-3 mt-auto d-flex justify-content-between">
