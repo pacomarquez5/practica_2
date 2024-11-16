@@ -18,7 +18,7 @@
     </nav>
     <div class="container d-flex justify-content-center align-items-center vh-100">
         <div class="w-100 w-sm-75 w-md-50 w-lg-25 p-4 rounded">
-            <h2 class="text-center mb-3">Practica número 2 "MENÚS"</h2>
+            <h2 class="text-center mb-3">Practica 6</h2>
             <p class="text-center mb-4">En esta practica realizaremos menus y submenus como lo siguiente:</p>
             <div class="d-flex justify-content-center gap-3">
                 <div class="border border-black rounded p-2">
